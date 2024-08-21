@@ -1,0 +1,52 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color:aqua;
+}
+
+h1{
+    color:blue;
+}
+
+a{
+    color:gray;
+}
+
+a:hover{
+    color:red;
+}
+
+u1>li{
+    font-weight: bold;
+}
+
+h1+p{
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+u1 lil:hover{
+color:aquamarine;
+}
+
+u1 li:nth-child(3){
+    background-color: darkslategray;
+}
+
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+
+u1 li::before{
+    content:🚀;
+}
+
+a::after{
+    content: "🚀";
+}
+
+p::first-letter{
+    font-size: 200%;
+    color:tomato;
+}
