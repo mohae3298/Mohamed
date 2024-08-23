@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ABC School</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .school-info {
+            margin-top: 20px;
+        }
+        .school-info h2 {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to ABC School</h1>
+
+    <div class="school-info">
+        <h2>School Information</h2>
+        <p><strong>Address:</strong> 123 Elm Street, Springfield, IL, 62704, USA</p>
+        <p><strong>Total Number of Students Enrolled:</strong> 1,200</p>
+        <p><strong>Streams Offered:</strong> Science, Commerce, Arts</p>
+        <p><strong>Educational Board:</strong> State Education Board</p>
+    </div>
+</body>
+</html>
