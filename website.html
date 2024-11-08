@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website</title>
+        <link rel="stylesheet" href="contentstyle.css">
+    </head>
+<body>
+    <div class="topnav">
+    <a href="index.html">home</a>
+    <a class="active" href="about.html">about</a>
+    <a href="Contactme.html"
+    <a href="website.html"></a>
+</div>
+</body>
+<section>
+
+    <img class="myslides" src="brownies.jpeg" style="height:500px">
+    
+    <img class="myslides" src="pizza.jpeg" style="height:500px">
+    
+    </section>
+    
+    <script>
+    
+    var myIndex=0;
+    
+    carousel();
+    
+    function carousel (){
+    
+    var i;
+    
+    var x= document.getElementsByClassName("myslides");
+    
+    for(i=0; i<x.length; i++){
+    
+    x[i].style.display="none";
+    
+    }
+    
+    myIndex++;
+    
+    if(myIndex>x.length){myIndex=1}
+    
+    x[myIndex-1].style.display="block";
+    
+    setTimeout(carousel,3000);
+    
+    }
+    
+    </script>
+</html>
